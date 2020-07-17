@@ -22,7 +22,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 } */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -31,7 +31,7 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* .list {
   list-style: none;
@@ -150,6 +150,7 @@ body {
 
 .contact-display {
   /* width: calc((100% - 50px) / 2); */
+
   margin-right: 30px;
   font-weight: 500;
   font-size: 14px;
@@ -185,7 +186,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 /* Hero */
-.section.hero {
+
+/* .section.hero {
   text-align: center;
   min-height: 600px;
   max-width: 1920px;
@@ -215,8 +217,9 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container.hero {
   width: 696px;
-}
-.section {
+} */
+
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -231,10 +234,11 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section .text {
   color: var(--primary-text-color);
-}
+} */
 
 /* Benefits */
-.benefits {
+
+/* .benefits {
   margin: 0;
   padding-left: 0;
   display: flex;
@@ -272,8 +276,9 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 14px;
   line-height: 1.71;
   margin: 0;
-}
+} */
 /* Works */
+
 .section-our-work {
   border-top: 1px solid #ececec;
 }
