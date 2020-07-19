@@ -279,7 +279,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 /* Works */
 
-.section-our-work {
+/* .section-our-work {
   border-top: 1px solid #ececec;
 }
 .our-works {
@@ -292,8 +292,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   width: calc((100% - 2 * 30px) / 3);
   margin-right: 30px;
-  height: 294px
-  /* width: 370px; */
+  height: 294px;
+  
 }
 .work-item:last-child {
   margin-right: 0;
@@ -308,7 +308,6 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
   text-align: center;
   background: rgba(47, 48, 58, 0.8);
-  /* border-radius: 0px 0px 4px 4px; */
   margin: 0;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -320,9 +319,11 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-item > img {
   display: block;
-}
+} */
+
 /* Our team */
-.our-team {
+
+/* .our-team {
   background-color: var(--secondary-background-color);
 }
 .our-team-flex {
@@ -334,7 +335,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .our-team-item {
   width: calc((100% - 3 * 30px) / 4);
   margin-right: 30px;
-  /* width: 270px; */
+  
 }
 .our-team-item:last-child {
   margin-right: 0;
@@ -345,8 +346,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .photo-workers {
   display: block;
   overflow: hidden;
-}
-.our-team-content {
+} */
+/* .our-team-content {
   padding: 30px 32px 25px 32px;
   text-align: center;
   background-color: var(--background-color);
@@ -362,21 +363,20 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-}
-.our-team .text {
+} */
+/* .our-team .text {
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-}
+} */
+
 /* Social-links */
 
-.social {
+/* .social {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
-  }
+    }
 
 .social-links {  
   display: flex;
@@ -404,14 +404,16 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .social-links:hover .svg-item-social {
     fill: var(--background-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .svg-item-social {
-     /* fill: #afb1b8;      */
+  } */
+
+  /* .svg-item-social {
+     
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  } */
 
 /* our-usual-clients */
-.our-clients {
+
+/* .our-clients {
   display: flex;
  }
 
@@ -447,14 +449,16 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .our-client-item:hover .our-client-link,
 .our-client-item:focus .our-client-link {
  border: 1px solid var(--accent-color)
-  }
+  } */
+  
 /* Buttons */
-.button {
+
+/* .button {
   display: inline-flex;
   align-items: center;
   border-radius: 4px;
    border: 1px solid transparent;
-  /* min-width: 200px; */
+  
   color: var(--title-text-color);
   background-color: var(--background-color);
   font-family: inherit;
@@ -464,15 +468,16 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   letter-spacing: 0.06em;
   text-decoration: none;
   text-align: center;
-  }
+  } */
 
-.button.primary {
+/* .button.primary {
  
   padding: 10px 32px;
   color: var(--background-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
+
 /* Footer */
 .footer {
   background-color: #2f303a;
@@ -722,7 +727,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /* Backdrop and modal */
 
-.backdrop {
+/* .backdrop {
 	
 	position: fixed;
 	z-index: 100;
@@ -730,7 +735,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgb(49, 48, 46, 0.5);	
+	background-color: rgba(49, 48, 46, 0.5);	
   transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: scale(1);
 	padding: 30px;
@@ -739,11 +744,11 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	pointer-events: none;	
   opacity: 0;
   transform: scale(2);
-}
+} */
 
 
 
-.modal {
+/* .modal {
   position: relative;
   max-width: 528px;
   max-height: 581px;
@@ -753,7 +758,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
-  /* outline: 1px solid tomato; */
+  
   }
 .close-modal-button {
   position: absolute;
@@ -779,12 +784,10 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 30px;
   text-align: center;
 
-}
+} */
 
-.form-field {
+/* .form-field {
   position: relative;
-  /* display: flex; */
-  /* flex-direction: column; */
   margin-bottom: 28px;
  }
 
@@ -801,9 +804,9 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-field.area {
   margin-bottom: 20px;
- }
+ } */
 
-.label-title.comment {
+/* .label-title.comment {
 top: 20px;
 left: 16px;
 transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -824,8 +827,9 @@ transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--accent-color);
   transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 12px;
-}
-.form-input {
+} */
+
+/* .form-input {
   padding: 12px 42px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -845,8 +849,9 @@ transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
   left: 19px;
   transform: translateY(-50%);
   display: inline-block;
-  }
-  .form-input:focus ~ .modal-svg {
+  } */
+
+  /* .form-input:focus ~ .modal-svg {
 	fill: #2196f3;
 }
 .checkbox-container {
@@ -860,17 +865,14 @@ transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.71;
   margin-left: 20px;
 
-}
-.checkbox-container .checkbox {
+} */
+/* .checkbox-container .checkbox {
 	-webkit-appearance: none;
 	display: inline-block;
 }
 .checkbox-icon {
 	content: "";
 	position: absolute;
-	/* display: flex; */
-	/* align-items: center; */
-	/* justify-content: center; */
 	width: 16px;
 	height: 15px;
 
@@ -880,8 +882,8 @@ transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
 	border: 2px solid #212121;
 	border-radius: 2px;
-}
-.checkbox:checked ~ .checkbox-icon {
+} */
+/* .checkbox:checked ~ .checkbox-icon {
   background-image: url(../images/icon-checkbox.svg);
   background-color: var(--accent-color);
   background-size: contain;
@@ -891,9 +893,9 @@ transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-form a {
   color: var(--accent-color);
-}
+} */
 
-.modal-button {
+/* .modal-button {
 display: block;
 color: var(--background-color);
 background-color: var(--accent-color);
@@ -903,7 +905,7 @@ margin-left: auto;
 margin-right: auto;
 min-width: 200px;
 min-height: 50px;
-}
+} */
 
 
 
