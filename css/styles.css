@@ -479,7 +479,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
 /* Footer */
-.footer {
+
+/* .footer {
   background-color: #2f303a;
 }
 .container-top-part {
@@ -504,8 +505,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-logo {
   color: var(--background-color);
-}
-.footer-form {
+} */
+/* .footer-form {
   display: flex;
   flex-direction: column;
 }
@@ -527,10 +528,10 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-email {
   margin-bottom: 10px;
-}
+} */
 
 
-.call-to-action {
+/* .call-to-action {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -585,7 +586,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-  }
+  } */
 
 
 /* Страница Портфолио */
